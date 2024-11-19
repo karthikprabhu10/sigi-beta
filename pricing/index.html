@@ -13,7 +13,7 @@
 <body>
     <div class="nav-bar">
         <div class="navbar">
-            <div class="logo caveat-font caveat-clr1">SIGI</div>
+           <a href="/index.html"> <div class="logo caveat-font caveat-clr1">SIGI</div></a>
             <div class="toggle-button">
                 <div></div>
                 <div></div>
@@ -78,5 +78,15 @@
         </div>
     </div>
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.querySelector('.navbar .toggle-button');
+      const navbarLinks = document.querySelector('.navbar .nav-links');
+
+      toggleButton.addEventListener('click', function() {
+        navbarLinks.classList.toggle('active');
+      });
+    });
+  </script>
 </body>
 </html>
