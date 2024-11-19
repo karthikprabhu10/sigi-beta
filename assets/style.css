@@ -1,0 +1,399 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  
+}
+.caveat-font {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hellix';
+  src: url('/root/fonts/hellix/Hellix-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+@font-face {
+font-family: 'Hellix';
+src: url('/root/fonts/hellix/Hellix-Light.woff2') format('woff2'),
+     url('/root/fonts/hellix/Hellix-Light.woff') format('woff');
+font-weight: 300;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Hellix';
+src: url('/root/fonts/hellix/hellix/Hellix-Black.woff') format('woff2'),
+     url('/root/fonts/hellix/Hellix-Black.woff') format('woff');
+font-weight: 900;
+font-style: normal;
+}
+@font-face {
+font-family: 'Hellix-sb';
+src: url('/root/fonts/hellix/Hellix-SemiBold.woff2') format('woff2'),
+     url('/root/fonts/hellix/Hellix-SemiBold.woff') format('woff');
+font-weight: 300;
+font-style: normal;
+}
+.hero-bg{
+  white-space: pre-line;
+ 
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.hellix{
+  font-family: 'Hellix';
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+body .hero-ttle{
+  font-size: 30px !important;
+  line-height: 60px !important;
+}
+.caveat-clr1{
+  color: rgb(20, 183, 137) ;
+}
+
+
+
+  .search{
+    
+  border: 0.2px solid #363636;
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 50px;
+  background-color: #fff;
+  
+  border-radius: 40px;
+  
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  }
+
+  .search_input{
+      
+  font-family: 'Hellix';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  margin-top:5px;
+  caret-color:transparent;
+  line-height: normal;
+  height: 100%;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  transition: width 0.4s linear;
+  flex-grow: 1;
+  }
+
+  .search .search_input{
+  padding: 0 10px;
+  width: 550px;
+  caret-color:rgb(20, 183, 137);
+  transition: width 0.4s linear;
+  }
+  
+  .search:hover > .search_icon{
+  background: rgb(20, 183, 137);
+  color: #fff;
+  }
+  
+  .search_icon{
+  
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+  background-color:black;
+  flex-shrink: 0;
+  }
+  .search-container{
+     width: 50%;
+    
+  }
+  .search-box-main{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+a:link{
+  text-decoration:none;
+}    
+
+
+
+
+
+
+.navbar {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  margin-right: auto;
+}
+
+.navbar .toggle-button {
+  display: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.navbar .toggle-button div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .navbar .nav-links {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .navbar .nav-links.active {
+    transform: translateX(0);
+  }
+
+  .navbar .toggle-button {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .navbar .nav-links a {
+    font-size: 24px;
+    margin: 4px 0;
+    color: black;
+    text-decoration: none;
+  }
+
+  .navbar .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+}
+
+.navbar .logo {
+background-color: #ffffff;
+font-size: 40px;
+font-weight: bold;
+
+
+}
+
+.navbar .nav-links {
+background-color: #ffffff;
+display: flex;
+font-size: 18px;
+gap: 50px;
+align-items: center;
+}
+
+.navbar .nav-links a {
+
+text-decoration: none;
+
+color: rgb(0, 0, 0);
+transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+color: rgb(20, 183, 137);
+}
+
+.navbar .nav-links .button {
+  margin-top: 10px;
+  align-self: center;
+}
+
+.navbar .button {
+background-color: #fafafa;
+padding: 7px 15px;
+background-color: rgb(15, 164, 140);
+border: none;
+font-size: 23px;
+color: white;
+cursor: pointer;
+
+font-family: Arial !important;
+border-radius: 90px;
+transition: background-color 0.3s;
+}
+
+.navbar .button:hover {
+background-color: rgb(13, 140, 104);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: nowrap;
+  }
+
+  .navbar .logo {
+    order: 1;
+  }
+
+  .navbar .toggle-button {
+    order: 2;
+  }
+
+  .navbar .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .navbar .nav-links.active {
+    display: flex;
+  }
+}
+
+
+
+.tools {
+padding-top: 20px;
+font-family: 'Hellix-sb';
+font-weight: 100;
+font-style: normal;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.icon-grid {
+display: flex;
+gap: 20px;
+}
+
+.icon-card {
+
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(245, 255, 252) ;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+width: 10px; /* Adjust width as needed */
+height: 10px; /* Adjust height as needed */
+transition: transform 0.2s ease-in-out;
+}
+
+.icon-card:hover {
+transform: translateY(-5px);
+}
+
+.icon-card i {
+font-size: 18px; /* Adjust icon size as needed */
+color: rgb(0, 0, 0); /* Customize icon color */
+}
+
+.icon-card-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.icon-card-container p {
+margin-top: 10px; /* Space between card and text */
+font-size: 14px;
+color: #333;
+font-weight: 500;
+text-align: center;
+}
+
+.navbar .toggle-button {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.navbar .toggle-button div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .navbar .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar .toggle-button {
+    display: flex;
+  }
+
+  .navbar .nav-links.active {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .search {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .search .search_input {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .search_icon {
+    width: 40px;
+    height: 40px;
+  }
+}

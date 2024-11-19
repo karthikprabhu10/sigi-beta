@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Stylesheets-->
-    <link rel="stylesheet" href="/home/assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <link rel="preload" href="/root/fonts/hellix/Hellix-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,14 +18,19 @@
 
         <div class="navbar">
             <div class="logo caveat-font caveat-clr1">SIGI</div>
+            <div class="toggle-button">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <div class="nav-links hellix">
               <a href="#home">Home</a>
               <a href="#about">About</a>
               <a href="#services">Services</a>
               <a href="#Pricing">Pricing</a>
               <a href="#contact">Contact</a>
+              <button class="button">Sign Up</button>
             </div>
-            <button class="button">Sign Up</button>
           </div>
         
     </div>
@@ -84,8 +89,11 @@
 
     <!-- jQuery JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./home/assets/script.js"></script>
+
     <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/b9a6505261.js" crossorigin="anonymous"></script>
+
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         const toggleButton = document.querySelector('.navbar .toggle-button');
@@ -96,7 +104,5 @@
         });
       });
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/b9a6505261.js" crossorigin="anonymous"></script>
 </body>
 </html>
