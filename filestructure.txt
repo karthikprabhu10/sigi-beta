@@ -10,6 +10,7 @@
     |-- index.html
     |-- test.html
     |-- test2.html
+|-- index.html
 |-- pricing
     |-- index.html
     |-- script.js
