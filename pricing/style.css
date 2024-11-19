@@ -160,6 +160,10 @@
 .tier-lvl{
     font-size: 30px;
 }
+a:link{
+  text-decoration:none;
+}    
+
 .caveat-font {
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
