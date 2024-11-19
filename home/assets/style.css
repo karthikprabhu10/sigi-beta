@@ -318,7 +318,7 @@ gap: 20px;
 display: flex;
 align-items: center;
 justify-content: center;
-background-color: rgb(245, 255, 252) ;
+background-color: rgba(0, 255, 13, 0.433) ;
 padding: 20px;
 border-radius: 10px;
 box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
