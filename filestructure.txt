@@ -6,6 +6,7 @@
             |-- 97e2a605a3214d83bee1072c326233cd-Photoroom.png
             |-- 97e2a605a3214d83bee1072c326233cd.jpeg
             |-- script.js
+        |-- script.js
         |-- style.css
     |-- index.html
     |-- test.html
