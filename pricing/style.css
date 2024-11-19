@@ -1,0 +1,370 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+::-moz-selection { /* Code for Firefox */
+    color: rgb(255, 255, 255);
+    background: #000000;
+  }
+  
+  ::selection {
+    color: rgb(255, 255, 255);
+    background: #000000;
+  }
+/* Black */
+@font-face {
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/hellix/Hellix-Black.woff') format('woff2'),
+         url('/root/fonts/hellix/Hellix-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Hellix-nav';
+    src: url('/root/fonts/hellix/Hellix-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+  @font-face {
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-BlackItalic.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  /* Bold */
+  @font-face {
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-Bold.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-BoldItalic.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  /* Extra Bold */
+  @font-face {
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-ExtraBold.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Hellix2';
+    src: url('/root/fonts/hellix/Hellix-Regular.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-Regular.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-ExtraBoldItalic.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  /* Light */
+  @font-face {
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-Light.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-LightItalic.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-SemiBold.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-SemiBold.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  /* Medium */
+  @font-face {
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-Medium.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-MediumItalic.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+
+.hellix{
+    font-family: 'Hellix';
+    font-weight: 600;
+    font-style: normal;
+}
+body{
+    background-color: #f0f4f8;
+
+}
+.header1{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-SemiBold.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-SemiBold.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+.header2{
+    margin-top: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Hellix2';
+    font-weight: 100;
+    font-style: normal;
+}
+.price-box {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+   
+    background-color: #f0f4f8;
+}
+.tier-lvl{
+    font-size: 30px;
+}
+.caveat-font {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.pricing-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 90%;
+    max-width: 1000px;
+}
+
+.card {
+    padding: 1.5rem;
+    border-radius: 30px;
+   
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 100%; /* Makes the card take full height of the grid cell */
+}
+
+.card-header {
+    margin-bottom: 1rem;
+}
+
+.card-header h2 {
+    font-size: 35px;
+    margin-bottom: 0.5rem;
+}
+
+.card-header span {
+    font-style: italic;
+    color: #55a;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.card button {
+    display: flex; /* Use flexbox for centering text */
+    justify-content: center; /* Center text horizontally within button */
+    align-items: center; /* Center text vertically within button */
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+  
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-align: center; /* Ensures text is centered in case of multiline */
+}
+
+.card-points {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.3rem;
+    flex-grow: 1; /* Makes the points section take up any remaining space */
+    text-align: left; /* Aligns text within the list items to the left */
+    padding-left: 0.5rem; /* Optional: Add left padding to create spacing */
+}
+
+
+.card li {
+    font-size: 20Px;
+    display: flex;
+    /* align-items: center; */
+    line-height: 40px;
+    font-family: 'Hellix';
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Color schemes for each card */
+.free {
+    background-color: #eaebec;
+}
+
+.pro {
+    background-color: #cdefd0;
+}
+
+.enterprise {
+    background-color: #eed6f2;
+}
+
+/* Button colors */
+.free button {
+    background-color: #ffffff00;
+    border: 0.5px solid black;
+    color: #000000;
+}
+
+.pro button {
+    background-color: #00b78c;
+    border: 0px solid black;
+    color: #ffffff;
+}
+
+.enterprise button {
+    background-color: #9a37d7;
+    border: 0px solid black;
+    color: #ffffff;
+}
+.gs{
+    font-family: 'Hellix';
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hellix-normal-600
+{
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-Medium.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hellix-bold-700
+{
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-Bold.woff2') format('woff2'),
+         url('/root/fonts/hellix/Hellix-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.caveat-clr1{
+    color: rgb(20, 183, 137) ;
+}
+
+.navbar {
+    margin-top: 5px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+}
+
+.navbar .logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  display: flex;
+  font-size: 18px;
+  gap: 60px;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  
+  color: rgb(0, 0, 0);
+  transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  color: rgb(20, 183, 137);
+}
+
+.navbar .button {
+  padding: 7px 15px;
+  background-color: rgb(15, 164, 140);
+  border: none;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  
+  font-family: Arial !important;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.navbar .button:hover {
+  background-color: rgb(13, 140, 104);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+  }
+}

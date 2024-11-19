@@ -1,0 +1,269 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+    
+  }
+  .caveat-font {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Hellix';
+    src: url('/root/fonts/hellix/Hellix-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('/root/fonts/hellix/Hellix-Light.woff2') format('woff2'),
+       url('/root/fonts/hellix/Hellix-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url('/root/fonts/hellix/hellix/Hellix-Black.woff') format('woff2'),
+       url('/root/fonts/hellix/Hellix-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hellix-sb';
+  src: url('/root/fonts/hellix/Hellix-SemiBold.woff2') format('woff2'),
+       url('/root/fonts/hellix/Hellix-SemiBold.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+.hero-bg{
+    white-space: pre-line;
+   
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.hellix{
+    font-family: 'Hellix';
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+body .hero-ttle{
+    font-size: 30px !important;
+    line-height: 60px !important;
+}
+.caveat-clr1{
+    color: rgb(20, 183, 137) ;
+}
+
+
+
+    .search{
+      
+    border: 0.2px solid #363636;
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 50px;
+    background-color: #fff;
+    
+    border-radius: 40px;
+    
+    padding: 9px;
+    }
+
+    .search_input{
+        
+    font-family: 'Hellix';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top:5px;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .search .search_input{
+    padding: 0 10px;
+    width: 550px;
+    caret-color:rgb(20, 183, 137);
+    transition: width 0.4s linear;
+    }
+    
+    .search:hover > .search_icon{
+    background: rgb(20, 183, 137);
+    color: #fff;
+    }
+    
+    .search_icon{
+    
+    height: 50px;
+    width: 50px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    background-color:black;
+    }
+    .search-container{
+       width: 50%;
+      
+    }
+    .search-box-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+a:link{
+    text-decoration:none;
+}    
+
+
+
+
+
+
+.navbar {
+ background-color: #ffffff;
+    margin-top: 5px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+ 
+  color: rgb(0, 0, 0);
+}
+
+.navbar .logo {
+  background-color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  
+  
+}
+
+.navbar .nav-links {
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;
+  gap: 60px;
+}
+
+.navbar .nav-links a {
+
+  text-decoration: none;
+  
+  color: rgb(0, 0, 0);
+  transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  color: rgb(20, 183, 137);
+}
+
+.navbar .button {
+  background-color: #fafafa;
+  padding: 7px 15px;
+  background-color: rgb(15, 164, 140);
+  border: none;
+  font-size: 23px;
+  color: white;
+  cursor: pointer;
+  
+  font-family: Arial !important;
+  border-radius: 90px;
+  transition: background-color 0.3s;
+}
+
+.navbar .button:hover {
+  background-color: rgb(13, 140, 104);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+  }
+}
+
+
+
+.tools {
+  padding-top: 20px;
+  font-family: 'Hellix-sb';
+  font-weight: 100;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.icon-card {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dfffe8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  width: 10px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-card i {
+  font-size: 18px; /* Adjust icon size as needed */
+  color: rgb(0, 0, 0); /* Customize icon color */
+}
+
+.icon-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-card-container p {
+  margin-top: 10px; /* Space between card and text */
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}

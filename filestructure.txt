@@ -1,0 +1,56 @@
+|-- home
+    |-- assets
+        |-- image
+            |-- 8a899ccae282459fad0f4fc48b767e89-removebg-preview.png
+            |-- 8a899ccae282459fad0f4fc48b767e89.jpeg
+            |-- 97e2a605a3214d83bee1072c326233cd-Photoroom.png
+            |-- 97e2a605a3214d83bee1072c326233cd.jpeg
+            |-- script.js
+        |-- style.css
+    |-- index.html
+    |-- test.html
+    |-- test2.html
+|-- pricing
+    |-- index.html
+    |-- script.js
+    |-- style.css
+|-- root
+    |-- fonts
+        |-- hellix
+            |-- demo.html
+            |-- Hellix-Black.woff
+            |-- Hellix-Black.woff2
+            |-- Hellix-BlackItalic.woff
+            |-- Hellix-BlackItalic.woff2
+            |-- Hellix-Bold.woff
+            |-- Hellix-Bold.woff2
+            |-- Hellix-BoldItalic.woff
+            |-- Hellix-BoldItalic.woff2
+            |-- Hellix-ExtraBold.woff
+            |-- Hellix-ExtraBold.woff2
+            |-- Hellix-ExtraBoldItalic.woff
+            |-- Hellix-ExtraBoldItalic.woff2
+            |-- Hellix-Light.woff
+            |-- Hellix-Light.woff2
+            |-- Hellix-LightItalic.woff
+            |-- Hellix-LightItalic.woff2
+            |-- Hellix-Medium.woff
+            |-- Hellix-Medium.woff2
+            |-- Hellix-MediumItalic.woff
+            |-- Hellix-MediumItalic.woff2
+            |-- Hellix-Regular.woff
+            |-- Hellix-Regular.woff2
+            |-- Hellix-RegularItalic.woff
+            |-- Hellix-RegularItalic.woff2
+            |-- Hellix-SemiBold.woff
+            |-- Hellix-SemiBold.woff2
+            |-- Hellix-SemiBoldItalic.woff
+            |-- Hellix-SemiBoldItalic.woff2
+            |-- Hellix-Thin.woff
+            |-- Hellix-Thin.woff2
+            |-- Hellix-ThinItalic.woff
+            |-- Hellix-ThinItalic.woff2
+            |-- stylesheet.css
+|-- test
+    |-- index.html
+    |-- style.css

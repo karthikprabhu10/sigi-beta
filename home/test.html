@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @font-face {
+        font-family: 'Hellix';
+        src: url('/root/fonts/hellix/Hellix-SemiBold.woff2') format('woff2');
+        font-weight: 600;
+        font-style: normal;
+    }
+    .hellix{
+        font-family: 'Hellix';
+        font-weight: 600;
+        font-style: normal;
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+        margin-top: 5px;
+      margin-left: 150px;
+      margin-right: 150px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .navbar .nav-links {
+      display: flex;
+      font-size: 18px;
+      gap: 60px;
+    }
+
+    .navbar .nav-links a {
+      text-decoration: none;
+      
+      color: rgb(0, 0, 0);
+      transition: color 0.3s;
+    }
+
+    .navbar .nav-links a:hover {
+      color: rgb(20, 183, 137);
+    }
+
+    .navbar .button {
+      padding: 7px 15px;
+      background-color: rgb(15, 164, 140);
+      border: none;
+      font-size: 18px;
+      color: white;
+      cursor: pointer;
+      
+      font-family: Arial !important;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    .navbar .button:hover {
+      background-color: rgb(13, 140, 104);
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-wrap: wrap;
+      }
+
+      .navbar .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body >
+  <div class="navbar">
+    <div class="logo hellix">SIGI</div>
+    <div class="nav-links hellix">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#Pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="button">Sign Up</button>
+  </div>
+</body>
+</html>

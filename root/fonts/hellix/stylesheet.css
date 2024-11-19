@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-BlackItalic.woff2') format('woff2'),
+        url('Hellix-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-Bold.woff2') format('woff2'),
+        url('Hellix-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-ExtraBold.woff2') format('woff2'),
+        url('Hellix-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-Black.woff2') format('woff2'),
+        url('Hellix-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-BoldItalic.woff2') format('woff2'),
+        url('Hellix-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-LightItalic.woff2') format('woff2'),
+        url('Hellix-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-Light.woff2') format('woff2'),
+        url('Hellix-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-ExtraBoldItalic.woff2') format('woff2'),
+        url('Hellix-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-Medium.woff2') format('woff2'),
+        url('Hellix-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-RegularItalic.woff2') format('woff2'),
+        url('Hellix-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-MediumItalic.woff2') format('woff2'),
+        url('Hellix-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-Regular.woff2') format('woff2'),
+        url('Hellix-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-Thin.woff2') format('woff2'),
+        url('Hellix-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-SemiBold.woff2') format('woff2'),
+        url('Hellix-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-ThinItalic.woff2') format('woff2'),
+        url('Hellix-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('Hellix-SemiBoldItalic.woff2') format('woff2'),
+        url('Hellix-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
