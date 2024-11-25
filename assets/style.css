@@ -82,6 +82,7 @@ body .hero-ttle{
   padding: 9px;
   display: flex;
   align-items: center;
+  position: relative;
   }
 
   .search_input{
@@ -94,7 +95,8 @@ body .hero-ttle{
   border: 0;
   outline: 0;
   background: none;
-  width: 0;
+  width: 100%;
+  padding-right: 60px;
   margin-top:5px;
   caret-color:transparent;
   line-height: normal;
@@ -104,6 +106,12 @@ body .hero-ttle{
   align-items: center;
   transition: width 0.4s linear;
   flex-grow: 1;
+  text-align: left;
+  box-sizing: border-box;
+  }
+
+  .search_input::placeholder {
+    text-align: left;
   }
 
   .search .search_input{
@@ -120,15 +128,19 @@ body .hero-ttle{
   
   .search_icon{
   
-  height: 50px;
-  width: 50px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color:white;
-  background-color:black;
-  flex-shrink: 0;
+  background-color: black;
+  color: white;
+  cursor: pointer;
   }
   .search-container{
      width: 50%;

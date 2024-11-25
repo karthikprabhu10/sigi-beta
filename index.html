@@ -50,8 +50,12 @@
             <div class="search-container h-100">
                 <div class="d-flex justify-content-center h-100">
                   <div class="search">
-                    <input class="search_input" type="text" name="" placeholder="Search It and Get It.......">
-                    <a href="#" class="search_icon"><i class="fa fa-search"></i></a>
+                    <form action="/search" method="get">
+                      <input class="search_input" type="text" name="q" placeholder="Search It and Get It......." required>
+                      <button type="submit" class="search_icon">
+                        <i class="fa fa-search"></i>
+                      </button>
+                    </form>
                   </div>
                 </div>
               </div>
