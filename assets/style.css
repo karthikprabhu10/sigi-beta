@@ -97,7 +97,7 @@ body .hero-ttle{
   background: none;
   width: 100%;
   padding-right: 60px;
-  margin-top:5px;
+
   caret-color:transparent;
   line-height: normal;
   height: 100%;
@@ -394,9 +394,15 @@ text-align: center;
 }
 
 @media (max-width: 768px) {
+  .search-container {
+    width: 85%;
+    padding: 0 10px;
+  }
+
   .search {
     width: 100%;
     padding: 5px;
+    margin: 0 auto;
   }
 
   .search .search_input {
