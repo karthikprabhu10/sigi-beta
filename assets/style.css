@@ -415,3 +415,16 @@ text-align: center;
     height: 40px;
   }
 }
+
+body .hero-ttle {
+    font-size: 30px !important;
+    line-height: 60px !important;
+}
+
+@media (max-width: 768px) {
+    body .hero-ttle {
+        margin-top: 50px;
+        font-size: 20px !important; /* Smaller font size for mobile screens */
+        line-height: 40px !important; /* Adjust line height accordingly */
+    }
+}
