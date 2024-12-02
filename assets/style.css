@@ -428,3 +428,33 @@ body .hero-ttle {
         line-height: 40px !important; /* Adjust line height accordingly */
     }
 }
+
+.discord-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #5865F2;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Hellix', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.discord-button:hover {
+    background-color: #4a5bdc;
+    transform: translateY(-3px);
+}
+
+.discord-button i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+.discord-text{
+  margin-bottom: 5px;
+}
