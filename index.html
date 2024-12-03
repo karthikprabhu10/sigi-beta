@@ -110,8 +110,52 @@
       });
     </script>
 
-    <a href="/support/index.html" class="support-button" target="_blank">
-        <i class="fa-solid fa-bolt"></i> <span class="support-text">Support Our Project</span>
-    </a>
+    <a href="#" class="support-button" id="supportButton">
+      <i class="fa-solid fa-bolt"></i> <span class="support-text">Support Our Project</span>
+  </a>
+  
+  <div id="popup" class="popup hidden">
+      <div class="popup-content">
+          <button class="close-button">&times;</button>
+          <h2 class="hellix">Support Our Project</h2>
+         <a href="upi://pay?pa=sigi-project@axl&pn=SIGI&cu=INR"> <img class="donate-img"  alt="Donate with upi" src="./support/assets/upi1.svg"></a>
+          <img class="donate-img" src="./support/assets/paypal1.svg" alt="Donate with paypal">
+      </div>
+  </div>
+  
+
+  
+  <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          const supportButton = document.getElementById('supportButton');
+          const popup = document.getElementById('popup');
+          const closeButton = document.querySelector('.close-button');
+  
+          function isMobileOrTablet() {
+              return /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
+          }
+  
+          supportButton.addEventListener('click', function (event) {
+              if (isMobileOrTablet()) {
+                  event.preventDefault();
+                  popup.classList.remove('hidden');
+              } else {
+                  window.location.href = '/support/index.html';
+              }
+          });
+  
+          closeButton.addEventListener('click', function () {
+              popup.classList.add('hidden');
+          });
+  
+          // Optional: Close popup when clicking outside the content
+          popup.addEventListener('click', function (event) {
+              if (event.target === popup) {
+                  popup.classList.add('hidden');
+              }
+          });
+      });
+  </script>
+  
 </body>
 </html>

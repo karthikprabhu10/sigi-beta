@@ -74,11 +74,14 @@
     |-- assets
         |-- logo.svg
         |-- paypal.svg
+        |-- paypal1.svg
         |-- paypal_qr.png
         |-- qr-code.png
         |-- qr-code4.png
         |-- screenshot.png
+        |-- upi-black.svg
         |-- upi.svg
+        |-- upi1.svg
         |-- upiqr.png
         |-- upi_paypal.svg
         |-- upi_qr.png
