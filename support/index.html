@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="assets/logo.svg" type="image/x-icon" />
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <title>Donate inulute@boi</title>
+    <title>Donate sigi-project@axl</title>
     <style>
         /* Add styles for the loading spinner */
         .spinner {
@@ -40,12 +40,12 @@
                 <p>Loading...</p>
             </div>
             <div class="qr-code"> 
-                <img id="qr-image" src="assets/upi_qr.png" alt="UPI QR Code">
+                <img id="qr-image" src="assets/qr-code4.png" alt="UPI QR Code">
             </div>
             <div class="payment-info">
                 <p id="qr-text">Scan the QR code or use the following method</p>
                 <div class="upi-id-content">
-                    <strong id="payment-id">inulute@boi</strong>
+                    <strong id="payment-id">sigi-project@axl</strong>
                     <button id="payment-button" class="copy-button">Copy</button>
                     <lottie-player 
                         id="upi-animation"
@@ -61,7 +61,9 @@
                 </div>
             </div>
             <!-- Toggle between UPI and PayPal -->
-            <a id="toggle-link" href="#" class="toggle-payment">Donate via PayPal? Click Here</a>
+            <a id="toggle-link" href="#" class="toggle-payment">
+                Donate via PayPal? Click Here
+            </a>
         </div>
     </div>
 
@@ -107,8 +109,8 @@
                     qrImage.style.display = "block"; // Show QR image
                 };
 
-                qrImage.src = "assets/upi_qr.png"; // Replace with your UPI QR code image
-                paymentId.textContent = "inulute@boi"; // Replace with your UPI ID
+                qrImage.src = "assets/qr-code4.png"; // Replace with your UPI QR code image
+                paymentId.textContent = "sigi-project@axl"; // Replace with your UPI ID
                 paymentButton.textContent = "Copy";
                 paymentButton.removeEventListener("click", openPayPalLink);
                 paymentButton.addEventListener("click", copyUpiId);
