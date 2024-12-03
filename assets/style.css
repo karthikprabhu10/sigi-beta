@@ -429,7 +429,7 @@ body .hero-ttle {
     }
 }
 
-.discord-button {
+.support-button {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -446,12 +446,12 @@ body .hero-ttle {
     transition: background-color 0.3s, transform 0.3s;
 }
 
-.discord-button:hover {
+.support-button:hover {
     background-color: #4a5bdc;
     transform: translateY(-3px);
 }
 
-.discord-button i {
+.support-button i {
     margin-right: 10px;
     font-size: 24px;
 }
