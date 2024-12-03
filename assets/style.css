@@ -242,7 +242,7 @@ font-weight: bold;
 .navbar .nav-links {
 background-color: #ffffff;
 display: flex;
-font-size: 12px;
+font-size: 15px;
 gap: 50px;
 align-items: center;
 }
@@ -269,7 +269,7 @@ background-color: #fafafa;
 padding: 7px 15px;
 background-color: rgb(15, 164, 140);
 border: none;
-font-size: 20px;
+font-size: 15px;
 color: white;
 cursor: pointer;
 
@@ -344,7 +344,7 @@ transform: translateY(-5px);
 }
 
 .icon-card i {
-font-size: 18px; /* Adjust icon size as needed */
+font-size: 15px; /* Adjust icon size as needed */
 color: rgb(0, 0, 0); /* Customize icon color */
 }
 
@@ -424,7 +424,7 @@ body .hero-ttle {
 @media (max-width: 768px) {
     body .hero-ttle {
         margin-top: 50px;
-        font-size: 20px !important; /* Smaller font size for mobile screens */
+        font-size: 15px !important; /* Smaller font size for mobile screens */
         line-height: 40px !important; /* Adjust line height accordingly */
     }
 }
