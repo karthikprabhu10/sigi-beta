@@ -70,3 +70,17 @@
             |-- Hellix-ThinItalic.woff
             |-- Hellix-ThinItalic.woff2
             |-- stylesheet.css
+|-- support
+    |-- assets
+        |-- logo.svg
+        |-- paypal.svg
+        |-- paypal_qr.png
+        |-- qr-code.png
+        |-- qr-code4.png
+        |-- screenshot.png
+        |-- upi.svg
+        |-- upiqr.png
+        |-- upi_paypal.svg
+        |-- upi_qr.png
+    |-- index.html
+    |-- styles.css

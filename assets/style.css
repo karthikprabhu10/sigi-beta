@@ -272,7 +272,7 @@ border: none;
 font-size: 15px;
 color: white;
 cursor: pointer;
-
+margin-bottom: 5px;
 font-family: Arial !important;
 border-radius: 90px;
 transition: background-color 0.3s;
