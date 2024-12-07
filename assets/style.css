@@ -79,7 +79,7 @@ body .hero-ttle{
   
   border-radius: 40px;
   
-  padding: 9px;
+  padding: 6px;
   display: flex;
   align-items: center;
   position: relative;
@@ -132,8 +132,8 @@ body .hero-ttle{
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
