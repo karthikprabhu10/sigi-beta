@@ -1,0 +1,27 @@
+.results-container {
+    margin: 2em auto;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+}
+h1, h2 {
+    text-align: center;
+}
+#summary {
+    margin: 1em 0;
+    font-size: 1.2em;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 0.5em 0;
+}
+li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1rem;
+}
+li a:hover {
+    text-decoration: underline;
+}

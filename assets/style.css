@@ -120,7 +120,7 @@ body .hero-ttle{
   caret-color:rgb(20, 183, 137);
   transition: width 0.4s linear;
   }
-  
+
   .search:hover > .search_icon{
   background: rgb(20, 183, 137);
   color: #fff;
