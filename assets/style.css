@@ -653,10 +653,16 @@ body .hero-ttle {
 
 @media (max-width: 768px) {
   .icon-grid {
-    justify-content: space-between;
+    gap: 15px; /* Reduce gap for mobile view */
+    justify-content: center;
   }
 
   .icon-card-container {
-    width: calc(50% - 10px); /* Adjust width to fit two icons per row */
+    width: calc(50% - 10px);
+     /* Adjust width to fit two icons per row with reduced gap */
+  }
+  .tools{
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
