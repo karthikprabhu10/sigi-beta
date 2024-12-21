@@ -321,22 +321,24 @@ align-items: center;
 }
 
 .icon-grid {
-display: flex;
-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 .icon-card {
 
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: rgb(245, 255, 252) ;
-padding: 20px;
-border-radius: 10px;
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
-width: 10px; /* Adjust width as needed */
-height: 10px; /* Adjust height as needed */
-transition: transform 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 255, 252);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  width: 80px; /* Adjust width as needed */
+  height: 80px; /* Adjust height as needed */
+  transition: transform 0.2s ease-in-out;
 }
 
 .icon-card:hover {
@@ -352,6 +354,7 @@ color: rgb(0, 0, 0); /* Customize icon color */
 display: flex;
 flex-direction: column;
 align-items: center;
+width: auto;
 }
 
 .icon-card-container p {
@@ -505,4 +508,155 @@ body .hero-ttle {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+/* From Uiverse.io by andrew-demchenk0 */ 
+.tool-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+  height: 36px;
+  width: 120px;
+  border: none;
+  background: #5e41de33;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.tool-label {
+  line-height: 20px;
+  font-size: 17px;
+  color: #5D41DE;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.tool-button:hover {
+  background: #5e41de4d;
+}
+
+.tool-button:hover .svg-icon {
+  animation: spin 2s linear infinite;
+}
+ 
+.bm-button {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+  height: 36px;
+  width: 136px;
+  border: none;
+  background: #056bfa27;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.bm-label {
+  margin-top: 1px;
+  font-size: 17px;
+  line-height: 22px;
+  font-family: sans-serif;
+  color: #056dfa;
+  letter-spacing: 1px;
+}
+
+.bm-button:hover {
+  background: #056bfa49;
+}
+.bm-button svg{
+  flex-shrink: 0;
+
+}
+.exp-button:hover .svg-icon {
+  animation: spin 1s linear infinite;
+}
+
+
+
+.exp-button {
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 6px 12px;
+   gap: 8px;
+   height: 36px;
+   width: 122px;
+   border: none;
+   background: #fa052227;
+   border-radius: 20px;
+   cursor: pointer;
+ }
+ 
+ .exp-label {
+   margin-top: 1px;
+   font-size: 17px;
+   line-height: 22px;
+   font-family: sans-serif;
+   color: #da323d;
+   letter-spacing: 1px;
+ }
+ 
+ .exp-button:hover {
+   background: #fa050549;
+ }
+ .exp-button svg{
+   flex-shrink: 0;
+ 
+ }
+ .exp-button:hover .exp-svg-icon {
+   animation: spin 1s linear infinite;
+ }
+ 
+ 
+ .fa-clock-rotate-left{
+  color: #04AA6D;
+ }
+
+ 
+.ht-button {
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 6px 12px;
+   gap: 8px;
+   height: 36px;
+   width: 136px;
+   border: none;
+   background: #05fa0927;
+   border-radius: 20px;
+   cursor: pointer;
+ }
+ 
+ .ht-label {
+   margin-top: 1px;
+   font-size: 17px;
+   line-height: 22px;
+   font-family: sans-serif;
+   color: #04AA6D;
+   letter-spacing: 1px;
+ }
+ 
+ .ht-button:hover {
+   background: #57fa0549;
+ }
+ .exp-button svg{
+   flex-shrink: 0;
+ 
+ }
+ .ht-button:hover .svg-icon {
+   animation: spin 1s linear infinite;
+ }
+
+@media (max-width: 768px) {
+  .icon-grid {
+    justify-content: space-between;
+  }
+
+  .icon-card-container {
+    width: calc(50% - 10px); /* Adjust width to fit two icons per row */
+  }
 }
