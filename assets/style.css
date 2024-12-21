@@ -542,7 +542,7 @@ body .hero-ttle {
 }
  
 .bm-button {
- display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 6px 12px;
@@ -550,7 +550,7 @@ body .hero-ttle {
   height: 36px;
   width: 136px;
   border: none;
-  background: #056bfa27;
+  background: #5e41de33;
   border-radius: 20px;
   cursor: pointer;
 }
@@ -565,7 +565,7 @@ body .hero-ttle {
 }
 
 .bm-button:hover {
-  background: #056bfa49;
+  background: #5e41de4d;
 }
 .bm-button svg{
   flex-shrink: 0;
@@ -613,7 +613,7 @@ body .hero-ttle {
  
  
  .fa-clock-rotate-left{
-  color: #04AA6D;
+  color: #5d41de;
  }
 
  
